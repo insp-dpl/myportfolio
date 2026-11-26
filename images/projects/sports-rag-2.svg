@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+<rect width="1200" height="750" fill="#151b23"/>
+<rect width="1200" height="56" fill="#0e1319"/>
+<circle cx="32" cy="28" r="8" fill="#e05561"/><circle cx="58" cy="28" r="8" fill="#d4a72c"/><circle cx="84" cy="28" r="8" fill="#4caf7a"/>
+<rect x="130" y="16" width="520" height="24" rx="12" fill="#222b37"/>
+<text x="80" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f5f8">Sports Rag Marketplace</text>
+<text x="1120" y="118" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#a9b4c2">Detail view</text>
+<rect x="80" y="160" width="660" height="400" rx="16" fill="#222b37"/>
+<rect x="110" y="190" width="600" height="250" rx="10" fill="#14a37f" opacity=".8"/>
+<rect x="110" y="465" width="420" height="22" rx="6" fill="#e8edf3"/><rect x="110" y="500" width="300" height="18" rx="6" fill="#55606e"/>
+<rect x="780" y="160" width="340" height="400" rx="16" fill="#222b37"/>
+<g fill="#55606e"><rect x="810" y="195" width="280" height="18" rx="6"/><rect x="810" y="255" width="280" height="18" rx="6"/><rect x="810" y="315" width="280" height="18" rx="6"/><rect x="810" y="375" width="280" height="18" rx="6"/><rect x="810" y="435" width="280" height="18" rx="6"/><rect x="810" y="495" width="280" height="18" rx="6"/></g>
+<rect x="810" y="580" width="180" height="50" rx="25" fill="#14a37f"/>
+<text x="600" y="722" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#a9b4c2">Placeholder image: replace with a real screenshot</text>
+</svg>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Live voting for tasting events, with payments and identity verification.">
+  <title>Wine Tasting Voting App | Uno Mawlue</title>
+  <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== Header (same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../index.html">
+        <img src="../images/logo.svg" alt="" width="34" height="34">
+        <span>Uno Mawlue</span>
+      </a>
+      <div class="header-actions">
+        <nav class="main-nav" id="primary-nav" aria-label="Main">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../projects/index.html" aria-current="page">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Light mode">
+          <span class="theme-icon" aria-hidden="true">&#9788;</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span aria-hidden="true">&#9776;</span> Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html">Projects</a></li>
+          <li><span aria-current="page">Wine Tasting Voting App</span></li>
+        </ol>
+      </nav>
+
+      <!-- ===== Title, summary, links ===== -->
+      <header class="project-hero">
+        <p class="eyebrow">Web &middot; Personal project</p>
+        <h1>Wine Tasting Voting App</h1>
+        <p class="tagline">Live voting for tasting events, with payments and identity verification.</p>
+        <ul class="tag-list" aria-label="Tech stack">
+          <li>Ruby on Rails</li>
+          <li>Devise</li>
+          <li>Stripe</li>
+          <li>Stripe Identity</li>
+          <li>JavaScript</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn" href="https://github.com/insp-dpl/wine-tasting">View code on GitHub</a>
+          <!-- Hosted somewhere? Add: <a class="btn btn-ghost" href="https://your-live-url">Visit live site</a> -->
+        </div>
+      </header>
+
+      <!-- ===== Screenshots: thumbnails swap the large image; the large image opens the lightbox ===== -->
+      <section class="gallery" aria-labelledby="gallery-heading">
+        <h2 class="visually-hidden" id="gallery-heading">Screenshots</h2>
+        <button type="button" class="gallery-main" aria-label="View image 1 of 3 full size">
+          <img src="../images/projects/wine-tasting-1.svg" alt="Placeholder: live voting screen" width="1200" height="750">
+        </button>
+        <ul class="thumbs">
+          <li>
+            <button type="button" class="thumb" data-src="../images/projects/wine-tasting-1.svg" data-alt="Placeholder: live voting screen"
+                    aria-label="Show image 1: Placeholder: live voting screen" aria-current="true">
+              <img src="../images/projects/wine-tasting-1.svg" alt="" width="1200" height="750" loading="lazy">
+            </button>
+          </li>
+          <li>
+            <button type="button" class="thumb" data-src="../images/projects/wine-tasting-2.svg" data-alt="Placeholder: admin approval dashboard"
+                    aria-label="Show image 2: Placeholder: admin approval dashboard" aria-current="false">
+              <img src="../images/projects/wine-tasting-2.svg" alt="" width="1200" height="750" loading="lazy">
+            </button>
+          </li>
+          <li>
+            <button type="button" class="thumb" data-src="../images/projects/wine-tasting-3.svg" data-alt="Placeholder: Stripe checkout step"
+                    aria-label="Show image 3: Placeholder: Stripe checkout step" aria-current="false">
+              <img src="../images/projects/wine-tasting-3.svg" alt="" width="1200" height="750" loading="lazy">
+            </button>
+          </li>
+        </ul>
+        <p class="gallery-hint">Select the large image to view it full size.</p>
+      </section>
+
+      <!-- ===== About the project ===== -->
+      <div class="project-body">
+        <div>
+          <h2>Overview</h2>
+          <p>A Rails app for wine tasting events where guests vote in real time and admins approve submissions.</p>
+          <p>Stripe handles payments, and Stripe Identity handles user verification.</p>
+          <h2>What I built</h2>
+          <ul>
+            <li>Real-time voting with JavaScript</li>
+            <li>Admin approval workflow</li>
+            <li>Stripe payments plus Stripe Identity verification</li>
+            <li>Role-based permissions and single sign-on with multiple OAuth providers</li>
+          </ul>
+        </div>
+
+        <aside aria-labelledby="details-heading">
+          <h2 id="details-heading">Project details</h2>
+          <div class="table-wrap">
+            <table class="data-table details-table">
+              <caption class="visually-hidden">Details for Wine Tasting Voting App</caption>
+              <tbody>
+                <tr>
+                  <th scope="row">Role</th>
+                  <td>Solo developer</td>
+                </tr>
+                <tr>
+                  <th scope="row">Context</th>
+                  <td>Personal project</td>
+                </tr>
+                <tr>
+                  <th scope="row">Category</th>
+                  <td>Web</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tech stack</th>
+                  <td>Ruby on Rails, Devise, Stripe, Stripe Identity, JavaScript</td>
+                </tr>
+                <tr>
+                  <th scope="row">Status</th>
+                  <td><span class="status status-complete">Complete</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Code</th>
+                  <td><a href="https://github.com/insp-dpl/wine-tasting">GitHub repository</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </aside>
+      </div>
+
+      <nav class="project-pager" aria-label="More projects">
+        <a class="prev" href="sports-rag.html"><span>Previous project</span>Sports Rag Marketplace</a>
+        <a class="next" href="farmer-wellness.html"><span>Next project</span>Farmer Wellness Questionnaire</a>
+      </nav>
+    </div>
+  </main>
+
+  <!-- Image lightbox (modal popup). Native <dialog> keeps focus inside and closes with Escape. -->
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+    <div class="lightbox-bar">
+      <p id="lightbox-caption">Image</p>
+      <button type="button" class="icon-btn" id="lightbox-close">Close <span aria-hidden="true">&times;</span></button>
+    </div>
+    <img id="lightbox-img" src="../images/logo.svg" alt="">
+    <div class="lightbox-nav">
+      <button type="button" class="icon-btn" id="lightbox-prev"><span aria-hidden="true">&larr;</span> Previous</button>
+      <button type="button" class="icon-btn" id="lightbox-next">Next <span aria-hidden="true">&rarr;</span></button>
+    </div>
+  </dialog>
+
+  <!-- ===== Footer (same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span class="current-year">2026</span> Alvin "Uno" Mawlue</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/insp-dpl">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

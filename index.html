@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alvin (Uno) Mawlue: computer science student building web apps, systems software, and security tools, heading into embedded systems.">
+  <title>Uno Mawlue | Software Developer</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== Header (same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="" width="34" height="34">
+        <span>Uno Mawlue</span>
+      </a>
+      <div class="header-actions">
+        <nav class="main-nav" id="primary-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="projects/index.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Light mode">
+          <span class="theme-icon" aria-hidden="true">&#9788;</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span aria-hidden="true">&#9776;</span> Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===== Hero ===== -->
+    <div class="container hero">
+      <div class="hero-text">
+        <h1>I'm Uno, a Software Developer</h1>
+        <p>
+          Computer science student in Minnesota. I build web apps, systems software,
+          and security tools, and I'm headed into embedded systems for medical devices.
+        </p>
+        <p class="muted" id="today-line">Thanks for stopping by.</p>
+        <a class="scroll-btn" href="#about" aria-label="Jump to the About section">
+          <span aria-hidden="true">&#8595;</span>
+        </a>
+      </div>
+
+      <figure class="hero-photo">
+        <img src="images/profile.png" alt="Portrait of Uno Mawlue">
+      </figure>
+
+      <div class="hero-aside">
+        <section aria-labelledby="aside-about">
+          <h2 id="aside-about">About me</h2>
+          <p>Final-semester CS student who switched over from political science.</p>
+          <a class="arrow-link" href="#about">Learn more <span aria-hidden="true">&rarr;</span></a>
+        </section>
+        <section aria-labelledby="aside-work">
+          <h2 id="aside-work">My work</h2>
+          <p>Full-stack web apps built with Rails, Django, and JavaScript.</p>
+          <a class="arrow-link" href="projects/index.html">Browse portfolio <span aria-hidden="true">&rarr;</span></a>
+        </section>
+        <section aria-labelledby="aside-follow">
+          <h2 id="aside-follow">Follow me</h2>
+          <ul class="social-list">
+            <li><a href="https://github.com/insp-dpl">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- ===== About ===== -->
+    <section class="section section-alt" id="about" aria-labelledby="about-heading" tabindex="-1">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <p class="eyebrow">About me</p>
+            <h2 id="about-heading">I like software that sits close to the hardware</h2>
+            <p>
+              I started college in political science and switched to computer science. Now
+              I'm in my last semester. My coursework covers operating systems, networking,
+              security, reverse engineering, and algorithms, and I've also been working
+              since 2023.
+            </p>
+            <p>
+              Next I'm going for a master's in embedded systems. My goal is to write
+              reliable software for medical devices.
+            </p>
+            <a class="arrow-link" href="contact.html">Get in touch <span aria-hidden="true">&rarr;</span></a>
+          </div>
+
+          <dl class="stats">
+            <div class="stat"><dt>Featured projects</dt><dd>3</dd></div>
+            <div class="stat"><dt>Languages I work in</dt><dd>5</dd></div>
+            <div class="stat"><dt>Team projects this year</dt><dd>2</dd></div>
+            <div class="stat"><dt>Graduating</dt><dd>2026</dd></div>
+          </dl>
+        </div>
+
+        <div class="skills-grid">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>Ruby</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Frameworks &amp; tools</h3>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>Django</li>
+              <li>Next.js</li>
+              <li>Git &amp; GitHub</li>
+              <li>Linux / WSL</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Focus areas</h3>
+            <ul>
+              <li>Embedded systems</li>
+              <li>Systems programming</li>
+              <li>Security &amp; malware analysis</li>
+              <li>Full-stack web apps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Featured projects ===== -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="featured-heading">Featured projects</h2>
+          </div>
+          <a class="arrow-link" href="projects/index.html">All projects <span aria-hidden="true">&rarr;</span></a>
+        </div>
+
+        <ul class="card-grid">
+          <li class="project-card">
+            <img src="images/projects/farmer-wellness-1.svg" alt="" width="1200" height="750">
+            <div class="card-body">
+              <p class="card-meta">Web &middot; Capstone</p>
+              <h3><a href="projects/farmer-wellness.html">Farmer Wellness Questionnaire</a></h3>
+              <p>A stress check-in tool that points farmers to the right support.</p>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+          <li class="project-card">
+            <img src="images/projects/sports-rag-1.svg" alt="" width="1200" height="750">
+            <div class="card-body">
+              <p class="card-meta">Web &middot; Team project</p>
+              <h3><a href="projects/sports-rag.html">Sports Rag Marketplace</a></h3>
+              <p>A marketplace for rare, authenticated sports collectibles.</p>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+          <li class="project-card">
+            <img src="images/projects/wine-tasting-1.svg" alt="" width="1200" height="750">
+            <div class="card-body">
+              <p class="card-meta">Web &middot; Personal</p>
+              <h3><a href="projects/wine-tasting.html">Wine Tasting Voting App</a></h3>
+              <p>Live voting for tasting events, with payments and identity verification.</p>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Call to action ===== -->
+    <div class="container">
+      <div class="cta">
+        <h2>Hiring, or have a project in mind?</h2>
+        <a class="btn" href="contact.html">Let's talk <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== Footer (same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span class="current-year">2026</span> Alvin "Uno" Mawlue</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/insp-dpl">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

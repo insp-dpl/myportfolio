@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+<rect width="1200" height="750" fill="#151b23"/>
+<rect width="1200" height="56" fill="#0e1319"/>
+<circle cx="32" cy="28" r="8" fill="#e05561"/><circle cx="58" cy="28" r="8" fill="#d4a72c"/><circle cx="84" cy="28" r="8" fill="#4caf7a"/>
+<rect x="130" y="16" width="520" height="24" rx="12" fill="#222b37"/>
+<text x="80" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f5f8">Wine Tasting Voting App</text>
+<text x="1120" y="118" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#a9b4c2">Home view</text>
+<rect x="80" y="170" width="520" height="40" rx="8" fill="#e8edf3"/>
+<rect x="80" y="230" width="420" height="20" rx="6" fill="#55606e"/><rect x="80" y="262" width="360" height="20" rx="6" fill="#55606e"/>
+<rect x="80" y="320" width="180" height="52" rx="26" fill="#9b5de5"/>
+<rect x="660" y="160" width="460" height="300" rx="16" fill="#9b5de5" opacity=".85"/>
+<g fill="#222b37"><rect x="80" y="500" width="320" height="180" rx="14"/><rect x="430" y="500" width="320" height="180" rx="14"/><rect x="780" y="500" width="320" height="180" rx="14"/></g>
+<text x="600" y="722" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#a9b4c2">Placeholder image: replace with a real screenshot</text>
+</svg>

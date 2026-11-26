@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web app projects by Uno Mawlue: Farmer Wellness, Sports Rag, and a wine tasting voting app.">
+  <title>Projects | Uno Mawlue</title>
+  <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== Header (same on every page) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../index.html">
+        <img src="../images/logo.svg" alt="" width="34" height="34">
+        <span>Uno Mawlue</span>
+      </a>
+      <div class="header-actions">
+        <nav class="main-nav" id="primary-nav" aria-label="Main">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../projects/index.html" aria-current="page">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Light mode">
+          <span class="theme-icon" aria-hidden="true">&#9788;</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span aria-hidden="true">&#9776;</span> Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <div class="page-header">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Projects</h1>
+        <p>Web apps I've built for class, with a team, and on my own. Select a project to read about it, see screenshots, and get the code.</p>
+      </div>
+
+      <!-- Filters: JavaScript shows and hides the cards and table rows below -->
+      <div class="filters">
+        <fieldset class="filter-buttons">
+          <legend>Filter by status</legend>
+            <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter-btn" data-filter="in-progress" aria-pressed="false">In progress</button>
+            <button type="button" class="filter-btn" data-filter="complete" aria-pressed="false">Complete</button>
+        </fieldset>
+        <div class="search-field">
+          <label for="project-search">Search projects</label>
+          <input type="search" id="project-search" placeholder="e.g. Rails, Django, Stripe">
+        </div>
+      </div>
+      <p class="result-count" id="result-count" aria-live="polite">Showing all 3 projects.</p>
+
+      <!-- Each card links to that project's own page in this folder (e.g. sports-rag.html) -->
+      <ul class="card-grid" id="project-cards">
+          <li class="project-card" data-group="in-progress">
+            <img src="../images/projects/farmer-wellness-1.svg" alt="" width="1200" height="750" loading="lazy">
+            <div class="card-body">
+              <p class="card-meta">Senior capstone (team, real client) &middot; In progress</p>
+              <h2 class="card-title"><a href="farmer-wellness.html">Farmer Wellness Questionnaire</a></h2>
+              <p>A stress check-in tool that points farmers to the right support.</p>
+              <ul class="tag-list" aria-label="Tech stack"><li>Django</li><li>JavaScript</li><li>Docker</li></ul>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+          <li class="project-card" data-group="in-progress">
+            <img src="../images/projects/sports-rag-1.svg" alt="" width="1200" height="750" loading="lazy">
+            <div class="card-body">
+              <p class="card-meta">Team project &middot; In progress</p>
+              <h2 class="card-title"><a href="sports-rag.html">Sports Rag Marketplace</a></h2>
+              <p>A marketplace for rare, authenticated sports collectibles.</p>
+              <ul class="tag-list" aria-label="Tech stack"><li>Ruby on Rails</li><li>Devise</li><li>JavaScript</li></ul>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+          <li class="project-card" data-group="complete">
+            <img src="../images/projects/wine-tasting-1.svg" alt="" width="1200" height="750" loading="lazy">
+            <div class="card-body">
+              <p class="card-meta">Personal project &middot; Complete</p>
+              <h2 class="card-title"><a href="wine-tasting.html">Wine Tasting Voting App</a></h2>
+              <p>Live voting for tasting events, with payments and identity verification.</p>
+              <ul class="tag-list" aria-label="Tech stack"><li>Ruby on Rails</li><li>Devise</li><li>Stripe</li></ul>
+              <span class="card-cta" aria-hidden="true">View project &rarr;</span>
+            </div>
+          </li>
+      </ul>
+
+      <section class="section" aria-labelledby="glance-heading">
+        <h2 id="glance-heading">All projects at a glance</h2>
+        <div class="table-wrap">
+          <table class="data-table" id="projects-table">
+            <caption>Projects by category, tech stack, context, and status</caption>
+            <thead>
+              <tr>
+                <th scope="col">Project</th>
+                <th scope="col">Category</th>
+                <th scope="col">Tech stack</th>
+                <th scope="col">Context</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-group="in-progress">
+                <th scope="row"><a href="farmer-wellness.html">Farmer Wellness Questionnaire</a></th>
+                <td>Web</td>
+                <td>Django, JavaScript, Docker, GitHub Issues/PRs</td>
+                <td>Senior capstone (team, real client)</td>
+                <td><span class="status status-progress">In progress</span></td>
+              </tr>
+              <tr data-group="in-progress">
+                <th scope="row"><a href="sports-rag.html">Sports Rag Marketplace</a></th>
+                <td>Web</td>
+                <td>Ruby on Rails, Devise, JavaScript</td>
+                <td>Team project</td>
+                <td><span class="status status-progress">In progress</span></td>
+              </tr>
+              <tr data-group="complete">
+                <th scope="row"><a href="wine-tasting.html">Wine Tasting Voting App</a></th>
+                <td>Web</td>
+                <td>Ruby on Rails, Devise, Stripe, Stripe Identity, JavaScript</td>
+                <td>Personal project</td>
+                <td><span class="status status-complete">Complete</span></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="5">3 projects total &middot; Status as of Fall 2026</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ===== Footer (same on every page) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span class="current-year">2026</span> Alvin "Uno" Mawlue</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/insp-dpl">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
